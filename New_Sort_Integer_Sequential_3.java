@@ -107,7 +107,7 @@ public class New_Sort_Integer_Sequential_3 {
 		for (int i = 0; i < n; i++)
 			list.add((int) Math.ceil(Math.random() * n));
 
-		sort(list, 0, n-1, comp); //Passing Comparator object
+		sort(list, 0, n-1, comp); //Passing Comparator object commit
 
 		for (int i = 0; i < n; i++) {
 		
